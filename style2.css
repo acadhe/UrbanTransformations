@@ -26,6 +26,13 @@ body {
   z-index: 3;
  }
 
+ #header2 {
+  height: 120px;
+  max-height: auto;
+  background-color: rgba(7,7,7,.4);
+  z-index: 3;
+ }
+
  #header img { 
    position: relative; 
    width: 100%; /* for IE 6 */
@@ -39,6 +46,14 @@ body {
    position: absolute; 
    top: 200px; 
    left: 0; 
+   width: 100%; 
+  color: white;
+}
+
+#header2 h1 { 
+   position: absolute; 
+   left: 0; 
+   top: 10px;
    width: 100%; 
   color: white;
 }
@@ -175,6 +190,11 @@ ul.rig h3{
         width: 100% !important; /* over-ride all li styles */
         margin: 0 0 20px;
       }
+    }
+
+    #main {
+      margin-top: 25px;
+      margin-bottom: 50px;
     }
 
 
