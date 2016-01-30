@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="eng">
+<head>
+	<meta charset="UTF-8">
+		<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+	<title>Ciudad gentrificada</title> 
+	<link rel="stylesheet" href="style2.css" /> 
+  <link href="/PgwSlider-master/pgwslider.css" rel="stylesheet">
+  <script src="/PgwSlider-master/jquery-2.1.4.min.js"></script>
+  <script src="/PgwSlider-master/pgwslider.js"></script>
+
+</head>
+
+
+<body>
+
+<div id="header2">
+ <!-- <img src="https://www.dropbox.com/s/3rgf7r5qi99dkhj/2014-07-10%2009.43.25.jpg?dl=0" alt="dropbox.com"  > -->
+ <h1> TUTORIAL </p> para registrar un inmueble o espacio urbano que haya sufrido una transformación</h1>
+</div>
+
+<div id="menu">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="colonias.html">Explorador de Colonias</a></li>
+<li><a href="registro.html">Registra un caso</a></li>
+</ul>
+</div> 
+<div id="main">
+
+
+
+<!-- <section id="panel">
+  <div id= "pleft">
+    <h1>Paso 1</h1>
+</div>
+<div id= "pright">
+  <h2>Entra a <a href = "https://www.google.com.mx/maps" target="_blank"> Google maps </a> y localiza tu inmueble</h2>
+  <img>
+</div>
+</section>
+
+</main> 
+
+<ul class="pgwSlider">
+    <li><img src="/images/bar_1.png" alt="Paris, France" data-description="Eiffel Tower and Champ de Mars"></li>
+    <li><img src="/images/bar_2.png" alt="Montréal, QC, Canada" data-large-src="bar_2.png"></li>
+    <li>
+        <img src="/images/bar_1.png">
+        <span>Shanghai, China</span>
+    </li>
+    <li>
+        <a href="/images/bar_2.png" target="_blank">
+            <img src="/images/bar_2.png">
+      <span>New York, NY, USA</span>
+        </a>
+    </li>
+</ul>
+
+
+
+</div>
+
+
+<script>
+
+$(document).ready(function() {
+    $('.pgwSlider').pgwSlider();
+});
+
+</script> -->
+
+
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script language="javascript">'use strict';$(function() {var width = 720; var animationSpeed = 100; var pause = 2000; var currentSlide = 1;var $slider = $('#slider'); var $slideContainer = $('.slides', $slider); var $slides = $('.slide', $slider); var interval; function startSlider() { interval = setInterval(function() { $slideContainer.animate({'margin-left': '-='+width}, animationSpeed, function() {if (++currentSlide === $slides.length) {currentSlide = 1; $slideContainer.css('margin-left', 0); }});}, pause);} function pauseSlider() {clearInterval(interval);}$slideContainer.on('mouseenter', pauseSlider).on('mouseleave', startSlider);startSlider();});
+</script>
+
+<div style="width: 720px; margin: 0 auto;">
+
+  <style type="text/css">#slider {width: 720px; height: 500px; border: 1px solid #0DFF72; border-radius: 1px; overflow: hidden; position: relative;  cursor: hand; cursor: pointer}#slider .slides {width: 4320px; height: 500px;  display: block; margin: 0; padding: 0;}#slider .slide {width: 720px; height: 500px; float: left; list-style-type: none;}.Sa160130 {position: absolute; max-width: 720px; margin: 0px;}.c4848  {position: absolute; bottom: 0px; width:100%;  padding: 12px; background-color: rgba(0, 0, 0, 0.7); color: #FFFFFF; font-size:24pt; font-family:Tahoma; text-align:center; line-height:48px; z-index:33; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+  </style>
+<div id="slider"><ul class="slides">
+
+<li class="slide slide1">
+ <figure class="Sa160130">
+ <a href="http://https://www.google.com.mx/maps" TARGET="_blank"> <IMG SRC="123-slideshow/1-entra-a-google-maps-y-busca-el-inmueble.png">
+ <figcaption class="c4848">
+#1 Entra a google maps y busca el inmueble
+</figcaption></a> 
+ </figure>
+ </li>
+
+<li class="slide slide2">
+ <figure class="Sa160130">
+  <IMG SRC="123-slideshow/2-accede-a-la-visualizacin-de-google-streetmaps.png">
+ <figcaption class="c4848">
+#2 Accede a la visualización de Google Streetmaps
+</figcaption> 
+ </figure>
+ </li>
+
+<li class="slide slide3">
+ <figure class="Sa160130">
+  <IMG SRC="123-slideshow/3-obtn-las-imgenes-historicas-y-toma-una-captura-de-pantalla.png">
+ <figcaption class="c4848">
+#3 Obtén las imágenes historicas y toma una captura de pantalla de la mas reciente
+</figcaption> 
+ </figure>
+ </li>
+
+<li class="slide slide4">
+ <figure class="Sa160130">
+  <IMG SRC="123-slideshow/4-toma-una-captura-de-pantalla-de-la-mas-reciente-de-una-ms-.png">
+ <figcaption class="c4848">
+#4 toma una captura de pantalla de la mas reciente de una más antigua
+</figcaption> 
+ </figure>
+ </li>
+
+<li class="slide slide5">
+ <figure class="Sa160130">
+  <IMG SRC="123-slideshow/danos-algunos-datos-del-inmueble.png">
+ <figcaption class="c4848">
+Danos algunos datos del inmueble
+</figcaption> 
+ </figure>
+ </li>
+
+<li class="slide slide1">
+ <figure class="Sa160130">
+ <a href="http://https://www.google.com.mx/maps" TARGET="_blank"> <IMG SRC="123-slideshow/1-entra-a-google-maps-y-busca-el-inmueble.png">
+ <figcaption class="c4848">
+#1 Entra a google maps y busca el inmueble
+</figcaption></a> 
+ </figure>
+ </li>
+
+</ul></div></div></div>
+
+
+</body>
+
