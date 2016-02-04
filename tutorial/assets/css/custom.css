@@ -302,9 +302,16 @@ pre.pre-show{
 /* Content */
 
 #demo {
-	margin-top: 10px;
+	margin-top: 30px;
+	margin-left: 100px;
 	width: 100%;
-	max-height: 300px;
+	vertical-align: center;
+	
+}
+
+#demo #owl-demo{
+	width: 1000px;
+	
 }
 
 .table th, .table td {
